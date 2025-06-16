@@ -1,0 +1,4 @@
+.bg_image {
+  background-image: url("../../../assets/images/loaderSecondBg.svg");
+  background-size: cover;
+}

@@ -1,0 +1,143 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* fonts */
+
+.f-PowerGrotesk {
+  font-family: PowerGrotesk;
+}
+
+.f-HelveticaNeueUltraLight {
+  font-family: HelveticaNeueUltraLight;
+}
+
+.f-HelveticaNeueRoman {
+  font-family: HelveticaNeueRoman;
+}
+
+.f-HelveticaNeueLight {
+  font-family: HelveticaNeueLight;
+}
+
+.f-HelveticaNeueMedium {
+  font-family: HelveticaNeueMedium;
+}
+.f-HelveticaNeueBold {
+  font-family: HelveticaNeueBold;
+}
+
+@font-face {
+  font-family: "HelveticaNeueBold";
+  src: url("./assets/fonts/HelveticaNeueBold.otf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "HelveticaNeueHeavy";
+  src: url("./assets/fonts/HelveticaNeueHeavy.otf") format("truetype");
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "HelveticaNeueLight";
+  src: url("./assets/fonts/HelveticaNeueLight.otf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "HelveticaNeueMedium";
+  src: url("./assets/fonts/HelveticaNeueMedium.otf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "HelveticaNeueRoman";
+  src: url("./assets/fonts/HelveticaNeueRoman.otf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "HelveticaNeueThin";
+  src: url("./assets/fonts/HelveticaNeueThin.otf") format("truetype");
+  font-weight: 100;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "HelveticaNeueUltraLight";
+  src: url("./assets/fonts/HelveticaNeueUltraLight.otf") format("truetype");
+  font-weight: 200;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "PowerGrotesk";
+  src: url("./assets/fonts/PowerGrotesk-Regular.ttf");
+  font-weight: 400;
+  font-style: normal;
+}
+.PhoneInputInput {
+  background: transparent;
+}
+
+.PhoneInputInput:focus-visible {
+  outline: 0;
+}
+
+.PhoneInputCountrySelect option {
+  color: #000000;
+}
+
+.scrollbar-sm::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+.scrollbar-sm::-webkit-scrollbar-thumb {
+  border-radius: 3px;
+}
+
+.scrollbar-sm::-webkit-scrollbar-track {
+  border-radius: 3px;
+}
+
+.scrollbar-md::-webkit-scrollbar {
+  width: 8px;
+}
+
+.scrollbar-md::-webkit-scrollbar-thumb {
+  border-radius: 4px;
+}
+
+.scrollbar-md::-webkit-scrollbar-track {
+  border-radius: 4px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-button {
+  display: none;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background: #6a6969;
+  cursor: auto;
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: #242424;
+}
+
+.glow-effect-container {
+  background: radial-gradient(circle, #e1ff26 -90%, transparent 55%);
+}
+
+.glow-effect-icon {
+  text-shadow: 0 0 0.5rem #e1ff26, 0 0 1rem #e1ff26, 0 0 1.5rem #e1ff26,
+    0 0 2.5rem #e1ff26, 0 0 4rem #e1ff26, 0 0 5.5rem #e1ff26, 0 0 6rem #e1ff26,
+    0 0 9.5rem #e1ff26;
+}
